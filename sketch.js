@@ -19,7 +19,6 @@ Afin de switcher entre les différents visages, il faut montrer sa main à la ca
 
 "use strict";
 
-
 // Définition des variables nécessaires à la détection de main
 let handPose;
 const HAND_OPTIONS = {
