@@ -104,8 +104,8 @@ panchangRegular = loadFont("assets/fonts/Panchang-Regular.woff",
 
 function setup() {
   // Met la taille du canvas à la taille de la fenêtre
-  const CANVAS_WIDTH = windowWidth;
-  const CANVAS_HEIGHT = windowHeight;
+  const CANVAS_WIDTH = 1080;
+  const CANVAS_HEIGHT = 1080;
 
   createCanvas(CANVAS_WIDTH, CANVAS_HEIGHT);
 
@@ -142,8 +142,8 @@ function setup() {
 function draw() {
 
   // Redéfinition de la taille du canevas plus son centre
-  const CANVAS_WIDTH = windowWidth;
-  const CANVAS_HEIGHT = windowHeight;
+  const CANVAS_WIDTH = 1080;
+  const CANVAS_HEIGHT = 1080;
   const CANVAS_CENTER = createVector(CANVAS_WIDTH / 2, CANVAS_HEIGHT / 2);
   
   // Met l'arrière plan en blanc
